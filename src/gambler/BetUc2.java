@@ -1,15 +1,18 @@
 package gambler;
 
 public class BetUc2 {
-static int amount = 100;
-static int bets = 1;
-static int won =0;
-static int loss=0;
+private int amount = 100;
+private int bets = 1;
+private int won =0;
+private int loss=0;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		System.out.println("bets:"+bets);
+                
+		BetUc2 b = new BetUc2();
+		
+		System.out.println(" minimum no of bets if won : "+b.bets);
+		System.out.println("minimum mo of bets if loss : "+b.bets);
 	}
 
 }
